@@ -17,19 +17,27 @@ public class CardImpl implements Card{
     private Color color;
     private int faceValue;    
 
+    
+    public CardImpl(Suit suit, Color color, int faceValue) {
+        this.suit = suit;
+        this.color = color;
+        this.faceValue = faceValue;
+    }  
+    
+
     @Override
     public Suit getSuit() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.suit;
     }
 
     @Override
     public Color getColor() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.color;
     }
 
     @Override
     public int getFaceValue() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return this.faceValue;
     }
     
 }

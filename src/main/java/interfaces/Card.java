@@ -28,15 +28,15 @@ public interface Card {
 //  
     
     enum Suit {
-        Diamonds,
-        Hearts,
-        Spades,
-        Clubs
+        DIAMONDS,
+        HEARTS,
+        SPADES,
+        CLUBS
     }
     
     enum Color {
-        Red,
-        Black
+        RED,
+        BLACK
     }
     
     //Returns values of the card

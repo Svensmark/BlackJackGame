@@ -1,7 +1,13 @@
 blackjack\interfaces\BlackJackPlayer.class
-impl\CardDeckImpl.class
 impl\CardImpl.class
 interfaces\CardDeck.class
+blackjack\impl\BlackJackPlayerIOImpl.class
+interfaces\Card$Suit.class
+interfaces\Card$Color.class
+blackjack\impl\BlackJackGameCtrlImpl.class
+Main.class
+impl\CardDeckImpl.class
+blackjack\interfaces\BlackJackGameCtrl.class
+blackjack\interfaces\BlackJackPlayerIO.class
 interfaces\Card.class
-interfaces\Card$Suits.class
-interfaces\Card$Colors.class
+blackjack\impl\BlackJackPlayerImpl.class

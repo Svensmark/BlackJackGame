@@ -1,5 +1,8 @@
 package blackjack.interfaces;
 
+import interfaces.Card;
+import java.util.List;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -18,7 +21,7 @@ public interface BlackJackPlayer {
     public int getTotal();
     
     //Returns a list of cards
-    public void getCards();
+    public List<Card> getCards();
     
     //Places a bet on a round
     public void bet(int betAmount);

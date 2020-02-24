@@ -15,12 +15,12 @@ import java.util.List;
  */
 public interface CardDeck {
     
-    public static CardDeckImpl newEmptyDeck() {
+    public static CardDeck newEmptyDeck() {
         return new CardDeckImpl();
     }
     
     //Returns the deck
-    public CardDeckImpl getDeck();
+    public List<CardImpl> getCards();
     
     //Fills the deck with 52 cards, one of each kind.
     public void fillDeck();
